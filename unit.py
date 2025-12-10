@@ -1,14 +1,6 @@
 """
-unit.py — единая точка входа для всех клавиатур проекта.
-
-Импорт:
-from keyboards.unit import ReplyKB, InlineKB
+utils — вспомогательные утилиты
 """
 
-from .reply import ReplyKB
-from .inline import InlineKB
-
-__all__ = [
-    "ReplyKB",
-    "InlineKB"
-]
+from .media import send_media_copy
+from .decorators import admin_only, not_banned
