@@ -1,0 +1,6 @@
+python-telegram-bot==20.7
+pytz==2024.1
+aiofiles==23.2.1
+python-dotenv==1.0.1
+Pillow==10.3.0
+loguru==0.7.2
